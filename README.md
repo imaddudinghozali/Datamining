@@ -1,11 +1,18 @@
-Jadi, script ini dimulai dengan mengimpor beberapa library penting yang akan membantu kita mengelola data, membangun model machine learning, dan membuat visualisasi supaya hasilnya lebih mudah dipahami.
+Pandas, Matplotlib, Naive Bayes, dan Decision Tree
+Pendahuluan
+Materi ini membahas dasar-dasar pengolahan data dan machine learning yang penting untuk analisis dan klasifikasi data, khususnya dalam konteks keamanan siber.
 
-Kemudian, kita membaca beberapa file data yang berisi informasi tentang trafik jaringan, baik yang normal maupun yang merupakan serangan DDoS dengan berbagai tipe. Data-data ini kemudian digabungkan menjadi satu supaya model bisa belajar dari keseluruhan data yang lengkap.
+Penggunaan Pandas untuk Preprocessing Data
+Pandas digunakan untuk membaca dataset dari file CSV, membersihkan data, dan menyiapkan fitur serta label yang akan digunakan dalam model machine learning.
 
-Setelah itu, kita memilih bagian data yang akan dipakai sebagai fitur (informasi yang jadi dasar prediksi) dan label (hasil yang ingin diprediksi, misalnya jenis serangan atau bukan). Data ini kemudian dibagi menjadi dua bagian: data untuk melatih model dan data untuk menguji model, supaya kita bisa tahu seberapa baik model kita bekerja pada data yang belum pernah dilihat sebelumnya.
+Visualisasi dengan Matplotlib dan Seaborn
+Matplotlib dan Seaborn membantu dalam membuat grafik dan visualisasi seperti confusion matrix dan decision tree, sehingga memudahkan pemahaman hasil model.
 
-Model yang dipilih adalah decision tree dengan metode tertentu agar bisa membuat keputusan berdasarkan informasi yang ada. Model ini dilatih dengan data training, lalu kita gunakan untuk memprediksi data testing.
+Naive Bayes
+Naive Bayes adalah algoritma klasifikasi probabilistik yang sederhana dan efektif, terutama untuk data dengan fitur yang independen.
 
-Setelah prediksi, kita hitung akurasi untuk melihat seberapa tepat model dalam mengklasifikasikan data. Selain itu, kita juga membuat visualisasi pohon keputusan agar bisa melihat bagaimana model mengambil keputusan, dan menampilkan confusion matrix dalam bentuk heatmap supaya kita bisa tahu di mana model sering benar dan di mana model sering salah.
+Decision Tree
+Decision Tree membangun model dalam bentuk pohon keputusan yang mudah dipahami dan divisualisasikan, cocok untuk klasifikasi dan regresi.
 
-Menurut saya, ini adalah cara yang cukup lengkap dan terstruktur untuk membangun dan mengevaluasi model machine learning pada data keamanan jaringan.
+Kesimpulan
+Materi ini memberikan pemahaman dasar tentang bagaimana data diproses dan dianalisis menggunakan Python, serta pengenalan dua algoritma machine learning yang populer.
